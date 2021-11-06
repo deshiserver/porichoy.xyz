@@ -651,8 +651,7 @@ button.swiper-pagination-bullet {
     box-shadow: 0 54px 80px rgba(58, 125, 171, .13), 0 22.5599px 33.4221px rgba(58, 125, 171, .0934511), 0 12.0616px 17.869px rgba(58, 125, 171, .0774939), 0 6.76164px 10.0172px rgba(58, 125, 171, .065), 0 3.59106px 5.32008px rgba(58, 125, 171, .0525061), 0 1.49432px 2.21381px rgba(58, 125, 171, .0365489);
     transition: transform .9s cubic-bezier(.23, 1, .32, 1)
 }
-
-.carousel .swiper-slide:before {
+.carousel .swiper-slide::before {
     content: "";
     display: none;
     opacity: 0;
@@ -661,10 +660,10 @@ button.swiper-pagination-bullet {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(58, 184, 255, .8);
+    /* background: rgba(58, 184, 255, .8); */
     border-radius: inherit;
     pointer-events: none;
-    transition: opacity .6s cubic-bezier(.23, 1, .32, 1)
+    transition: opacity .6s cubic-bezier(.23, 1, .32, 1);
 }
 
 .carousel .swiper-slide:not(.swiper-slide-active) {
