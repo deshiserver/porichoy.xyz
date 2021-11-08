@@ -31,7 +31,7 @@ ul li {
     position: absolute;
     left: 0;
     right: 0;
-    /* background: #f2f6f7; */
+    background: #fff;
     box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
 }
 
@@ -410,7 +410,7 @@ ul li {
 }
 
 .single-faq {
-    background: aliceblue;
+    background: #fff;
     padding: 45px 45px;
     border-radius: 5px;
 }
@@ -823,9 +823,11 @@ ul li {
     width: 100%;
     border-radius: 5px 5px 0px 0px;
 }
+
 .news-date span i {
     margin-right: 15px;
 }
+
 .news-content {
     padding: 25px 25px;
 }
@@ -1115,7 +1117,7 @@ ul li {
 .benefit-area,
 .blog-area,
 .section-showcase.-bg-gradient-beige {
-    background: #F2F6F7;
+    background: #fff;
     /* padding: 30px 0; */
 }
 
@@ -1145,4 +1147,10 @@ section h2 {
 
 .section-area {
     padding-top: 170px;
+}
+#templates {
+    background: #F2F6F7;
+}
+.faq-area.pt-150.pb-150 {
+    background: #F2F6F7;
 }
