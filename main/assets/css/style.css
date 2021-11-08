@@ -264,6 +264,7 @@ ul li {
     border-radius: 20px;
     padding: 30px 30px;
     margin-bottom: 30px;
+    border: 1px solid #ddd;
 }
 
 .pricing-type h6 {
@@ -294,7 +295,7 @@ ul li {
 }
 
 .pricing-list ul li svg {
-    background: var(--main-theme-color);
+    background: #000;
     color: #fff;
     padding: 3px;
     font-size: 20px;
@@ -306,7 +307,7 @@ ul li {
     width: 100%;
     text-align: center;
     margin-top: 30px;
-    background: var(--main-theme-color);
+    background: #000;
     border-radius: 30px;
 }
 
@@ -617,7 +618,7 @@ ul li {
 }
 
 .main-area {
-    background: #f7f9fb;
+    background: #fff;
     padding: 100px 0;
 }
 
@@ -661,11 +662,11 @@ ul li {
 }
 
 .step-section ul li.active a {
-    color: #662df1;
+    color: #000;
 }
 
 .step-section ul li.active .single-step span {
-    background: #662df1;
+    background: #000;
 }
 
 .registation-form {
@@ -696,7 +697,7 @@ ul li {
 
 .register-btn button {
     border: none;
-    background: #662df1;
+    background: #000;
     color: #fff;
     padding: 15px 50px;
     font-size: 17px;
@@ -724,7 +725,7 @@ ul li {
 
 .social a svg {
     color: #fff;
-    background: #662df1;
+    background: #000;
     font-size: 55px;
     padding: 10px 5px;
     border-radius: 70px;
@@ -741,7 +742,7 @@ ul li {
 }
 
 .already-have-account-section a {
-    color: #662df1;
+    color: #000;
     font-weight: 600;
     font-size: 18px;
 }
@@ -817,11 +818,13 @@ ul li {
 }
 
 .news-img a img {
-    height: 380px;
+    height: 300px;
     width: 100%;
     border-radius: 5px 5px 0px 0px;
 }
-
+.news-date span i {
+    margin-right: 15px;
+}
 .news-content {
     padding: 25px 25px;
 }
@@ -969,7 +972,7 @@ ul li {
 
 .button-btn button {
     border: none;
-    background: #662df1;
+    background: #000;
     color: #fff;
     padding: 16px 45px;
     font-size: 18px;
@@ -987,6 +990,7 @@ ul li {
     font-weight: 600;
     font-size: 45px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .login-form .form-group {
@@ -1012,7 +1016,7 @@ ul li {
 
 .button button {
     border: none;
-    background: #662df1;
+    background: #000;
     color: #fff;
     font-size: 18px;
     width: 100%;
@@ -1037,11 +1041,11 @@ ul li {
 }
 
 .doesnt-have-an-account p a {
-    color: #662df1;
+    color: #000;
 }
 
 .forgot-password a {
-    color: #662df1;
+    color: #000;
 }
 
 .login-form .form-control:focus {
@@ -1136,4 +1140,8 @@ section h2 {
 
 .mt5rem {
     margin-top: 5rem;
+}
+
+.section-area {
+    padding-top: 170px;
 }
