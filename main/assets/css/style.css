@@ -35,7 +35,7 @@ ul li {
 }
 
 .header-logo img {
-    height: 45px;
+    height: 23px;
 }
 
 .header-menu ul {
@@ -70,8 +70,8 @@ ul li {
 }
 
 .header-btn a:last-child {
-    background: #662df1;
-    border-color: #662df1;
+    background: #000;
+    border-color: #000;
     color: #fff;
 }
 
@@ -162,7 +162,7 @@ ul li {
 }
 
 .slider-btn a {
-    background: var(--main-theme-color);
+    background: #000;
     color: #fff;
     padding: 17px 40px;
     border-radius: 5px;
@@ -365,27 +365,27 @@ ul li {
 
 /* promo */
 
-.promo-area {
+.cta-area {
     padding: 100px 0;
-    background: var(--main-theme-color);
+    background: #000;
 }
 
-.promo-content h2 {
+.cta-content h2 {
     color: #fff;
     font-size: 40px;
     margin-bottom: 20px;
 }
 
-.promo-content p {
+.cta-content p {
     color: #fff;
     font-size: 17px;
     line-height: 1.8;
     margin-bottom: 25px;
 }
 
-.promo-btn a {
+.cta-btn a {
     background: #fff;
-    color: #7721ff;
+    color: #000;
     padding: 15px 45px;
     border-radius: 5px;
     font-size: 16px;
@@ -526,7 +526,7 @@ ul li {
     margin-right: 0;
 }
 
-.footer-area.footer-demo-1 .agent-social-links ul li a {
+.footer-area.footer-dm1 .agent-social-links ul li a {
     background: #fff;
     color: #274abb;
 }
@@ -569,7 +569,7 @@ ul li {
 }
 
 .footer-bottom-area {
-    background: #7000d2;
+    background: #000;
     color: #fff;
     padding: 25px 0;
 }
@@ -582,17 +582,17 @@ ul li {
     text-decoration: none;
 }
 
-.footer-area.footer-demo-1 .agent-social-links ul li a {
+.footer-area.footer-dm1 .agent-social-links ul li a {
     background: #fff;
-    color: #7000d2;
+    color: #000;
 }
 
-.footer-area.footer-demo-1 .footer-newsletter-input button {
-    background: #6610ca;
+.footer-area.footer-dm1 .footer-newsletter-input button {
+    background: #000;
     color: #fff;
 }
 
-.footer-bottom-area.footer-demo-1 .footer-bottom-content span a {
+.footer-bottom-area.footer-dm1 .footer-bottom-content span a {
     color: #f5f5f5;
     text-decoration: none;
     font-weight: 600;
@@ -816,6 +816,12 @@ ul li {
     margin-bottom: 30px;
 }
 
+.news-img a img {
+    height: 380px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
 .news-content {
     padding: 25px 25px;
 }
@@ -849,7 +855,7 @@ ul li {
 }
 
 .news-action a {
-    color: #662df1;
+    color: #000;
 }
 
 .blog-date {
@@ -1082,13 +1088,13 @@ ul li {
     visibility: visible;
 }
 
-.footer-lang {
+.footer-language {
     margin-bottom: 30px;
     border-bottom: 1px solid rgb(81 82 84 / 10%);
     padding-bottom: 14px;
 }
 
-.footer-lang select {
+.footer-language select {
     height: 55px;
     border: none;
     padding: 0 17px;
